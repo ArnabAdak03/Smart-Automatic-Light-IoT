@@ -1,0 +1,14 @@
+
+Smart Automatic Light - ESP8266
+Boot: 2025-08-17T15:41:10.252168
+BLYNK_ENABLED=0
+Relay active LOW: True
+LDR threshold: 600
+Motion hold (ms): 15000
+
+[00:00.5] LDR=712 (dark)
+[00:00.5] PIR=0, Relay=OFF
+[00:02.1] PIR=1 (motion), Relay=ON
+[00:04.3] PIR=0 (no motion), holding...
+[00:17.8] Hold expired, Relay=OFF
+[00:18.0] LDR=320 (bright) -> motion ignored
